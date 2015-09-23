@@ -2,3 +2,22 @@
 smk_owner : OwnerName
 smk_contact : Contact@email.com
 smk_mailhost : localhost
+
+smokeping_targets:
+  - group_name: Local
+    menu: Local
+    title: Local Network
+    hosts:
+      - menu: Local Machine
+        title: This host
+        host: localhost
+  - group_name: Other
+    menu: Other
+    title: Other Hosts
+    hosts:
+      - menu: google
+        title: google.com
+        host: google.com
+      - menu: yahoo
+        title: yahoo.com
+        host: yahoo.com

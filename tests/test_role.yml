@@ -1,0 +1,11 @@
+#
+# ansible-playbook -i hosts jump.yml
+#
+# this will create & maintain the users & ssh-keys on the FTC jump hosts
+#
+---
+- hosts: all
+  gather_facts: true
+  # vars also get loaded from group_vars/{{ env_name }}
+  roles:
+    - { role: ansible-smokeping }
