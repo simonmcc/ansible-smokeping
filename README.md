@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/simonmcc/ansible-smokeping.svg?branch=master)](https://travis-ci.org/simonmcc/ansible-smokeping)
 smokeping
 ========
 
