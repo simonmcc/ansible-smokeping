@@ -9,7 +9,7 @@ remark = Welcome to the SmokePing website of xxx Company. \
 
 
 {% for group in smokeping_targets %}
-+ {{ group.group_name }}
++ {{ group.group_name|replace(" ", "") }}
 menu = {{ group.menu }}
 title = {{ group.title }}
 
